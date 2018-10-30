@@ -6,8 +6,8 @@
     {
     padding-top: 80px;
     padding-bottom: 0px;
-    /*padding-right: 120px;
-    padding-left: 120px;*/
+    padding-right: 120px;
+    padding-left: 120px;
     font-size: 15px;
     letter-spacing: 1px;
     font: 400 15px/1.8 Lato, sans-serif;
@@ -67,6 +67,11 @@
 
 @media (max-width: 600px) 
 {
+    .container
+    {
+    padding-right: 0px;
+    padding-left: 0px;
+    }
     .carousel-caption 
     {
         display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
