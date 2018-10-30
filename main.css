@@ -71,7 +71,7 @@
     }
    #tabscontent
     {
-    padding-top: 80px;
+    padding-top: 50px;
     padding-right: 120px;
     padding-left: 120px;
     }
@@ -85,6 +85,7 @@
     }
     #tabscontent
     {
+    padding-top: 50px;
     padding-right: 30px;
     padding-left: 30px;
     }
