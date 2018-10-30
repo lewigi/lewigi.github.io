@@ -66,13 +66,13 @@
     }
    #forms
     {
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 120px;
+    padding-left: 120px;
     }
    #tabscontent
     {
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 120px;
+    padding-left: 120px;
     }
 
 @media (max-width: 600px) 
