@@ -64,9 +64,29 @@
     letter-spacing: 1px;
     font: 400 15px/1.8 Lato, sans-serif;
     }
+   #forms
+    {
+    padding-right: 50px;
+    padding-left: 50px;
+    }
+   #tabscontent
+    {
+    padding-right: 50px;
+    padding-left: 50px;
+    }
 
 @media (max-width: 600px) 
 {
+    #forms
+    {
+    padding-right: 50px;
+    padding-left: 50px;
+    }
+    #tabscontent
+    {
+    padding-right: 50px;
+    padding-left: 50px;
+    }
     .container
     {
     padding-right: 50px;
