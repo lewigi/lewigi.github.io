@@ -35,6 +35,10 @@
 }
 @media (max-width: 600px) 
 {
+    .vidContain 
+    {
+        padding-top: 70px;
+    }
  #videotxt
     {
     padding-left: 390px;
