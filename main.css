@@ -1,54 +1,51 @@
-html {
+html 
+    {
     scroll-behavior: smooth;
-}
-
-#playme {
+    }
+#playme
+    {
     width: 100%;
     margin: auto;
-}
-
-#videotxt {
+    }
+#videotxt
+    {
     padding-left: 1000px;
-}
-
+    }
 .vidContain {
     padding-top: 66px;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    display: inline-block;
-    margin: 0px;
+    width:100%;
+    height:100%;
+    position:relative;
+    display:inline-block;
+    margin:0px;
 }
-
 .vid {
-    position: static;
-    top: 0; 
-    left: 0;
+    position:static;
+    top: 0; left:0;
     width: 100%;
     margin: auto;
     z-index: -1;
 }    
-
 .content {
-    position: absolute;
-    top: 0; 
-    left: 0;
+    position:absolute;
+    top:0; left:0;
     background: transparent;
-    opacity: 0.5;
-    color: grey;
+    opacity: 0.5
+    color:grey;
 }
-
-@media (max-width: 600px) {
-    .vidContain {
+@media (max-width: 600px) 
+{
+    .vidContain 
+    {
         padding-top: 70px;
     }
-    
-    #videotxt {
-        padding-left: 390px;
+ #videotxt
+    {
+    padding-left: 390px;
     }   
 }
-
-.container {
+    .container
+    {
     padding-top: 80px;
     padding-bottom: 0px;
     padding-right: 120px;
@@ -56,94 +53,102 @@ html {
     font-size: 15px;
     letter-spacing: 1px;
     font: 400 15px/1.8 Lato, sans-serif;
-}  
-
-.navbar {
+    }  
+    .navbar 
+    {
     margin-bottom: 0;
     background-color: black;
     border: 0;
     font-size: 11px !important;
     letter-spacing: 4px;
-    opacity: 0.9;
-}
-
-.navbar-default .navbar-toggle {
+    opacity:0.9;
+    }
+    .navbar-default .navbar-toggle 
+    {
     border-color: transparent;
-}
-
-.navbar-nav li a:hover {
+    }
+    .navbar-nav li a:hover 
+    {
     color: grey !important;
-}
-
-footer {
+    }
+    footer 
+    {
     background-color: black;
     color: #f5f5f5;
     padding: 32px;
-}
+    }
 
-footer a {
+    footer a 
+    {
     color: #f5f5f5;
-}
+    }
 
-footer a:hover {
+    footer a:hover 
+    {
     color: firebrick;
     text-decoration: none;
-}
-
-.carousel-inner img {
+    }
+    .carousel-inner img
+    {
     width: 100%; /* Set width to 100% */
     margin: auto;
-}
+    }
 
-.carousel-caption {
-    position: absolute;
-    top: 20px; /* Positioning above the image */
-    left: 0;
-    right: 0;
-    text-align: center;
-    color: #ccccb3 !important; /* Text color */
-    opacity: 0.8; /* Adjust the opacity if needed */
-}
-
-.carousel-caption h3 {
+    .carousel-caption h3 
+    {
+    color: #ccccb3 !important;
     letter-spacing: 1px;
     font: 400 15px/1.8 Lato, sans-serif;
-}
-
-.carousel-caption p {
+    }
+    .carousel-caption p 
+    {
+    color: #ccccb3 !important;
     letter-spacing: 1px;
     font: 400 15px/1.8 Lato, sans-serif;
-}
+    }
 
-#forms {
+    .project-description {
+        text-align: center; /* Center the text */
+        font-size: 16px; /* Adjust font size */
+        color: #000000; /* Change the color if needed */
+        padding: 15px; /* Add some padding */
+        margin-top: 10px; /* Add space above the text */
+        font: 400 15px/1.8 Lato, sans-serif;
+    }
+    
+
+   #forms
+    {
     padding-right: 120px;
     padding-left: 120px;
-}
-
-#tabscontent {
+    }
+   #tabscontent
+    {
     padding-top: 50px;
     padding-right: 120px;
     padding-left: 120px;
-}
-
-@media (max-width: 600px) {
-    #forms {
-        padding-right: 30px;
-        padding-left: 30px;
     }
 
-    #tabscontent {
-        padding-top: 50px;
-        padding-right: 30px;
-        padding-left: 30px;
+@media (max-width: 600px) 
+{
+    #forms
+    {
+    padding-right: 30px;
+    padding-left: 30px;
     }
-
-    .container {
-        padding-right: 30px;
-        padding-left: 30px;
+    #tabscontent
+    {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
     }
-
-    .carousel-caption {
+    .container
+    {
+    padding-right: 30px;
+    padding-left: 30px;
+    }
+    .carousel-caption 
+    {
         display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
 }
